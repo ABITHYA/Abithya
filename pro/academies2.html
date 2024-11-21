@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #0148;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fcfaf3;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(3, 100, 98, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #faf8f2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Our Academic Book Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://cdn.shopify.com/s/files/1/1279/5591/products/business_large.jpg?v=1579516874" ></a>
+                <h3>Business Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://th.bing.com/th/id/OIP.nhNpUWn6mv4_SvKs1kb7OAHaKQ?rs=1&pid=ImgDetMain" ></a>
+                <h3>Marketing and Sales Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.o4kOCP0gmF11WMadMltTzwAAAA?rs=1&pid=ImgDetMain" ></a>
+                <h3>International Business</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.iD5vCZi4S8M7_u4pMb56MgHaLH?rs=1&pid=ImgDetMain" ></a>
+                <h3>Entrepreneurship and Innovation</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://images.tandf.co.uk/common/jackets/amazon/978177188/9781771883481.jpg" ></a>
+                <h3>Hotel Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://m.media-amazon.com/images/I/71YcSsrI6gL._SL1500_.jpg" ></a>
+                <h3> Hospitality and Tourism Management</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

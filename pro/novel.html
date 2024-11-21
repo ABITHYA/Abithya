@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fffbf4;
+        }
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fefaf2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Novel Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://static2.srcdn.com/wordpress/wp-content/uploads/2020/08/b1-15.jpg" ></a>
+                <h3>Mystery</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://miblart.com/wp-content/uploads/2020/10/Raymond-Beckham-scaled.jpg" ></a>
+                <h3>Thriller</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://the-bibliofile.com/wp-content/uploads/bestdystopianbookspin4.jpg" ></a>
+                <h3>Dystopian</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://www.mydomaine.com/thmb/iWHFJrV6unso-x8I0ow5s53iEXM=/1696x2560/filters:no_upscale():max_bytes(150000):strip_icc()/91X4ZCruKNL-864e369c318044b7b537adb77cb78621.jpg" ></a>
+                <h3>Magical Realism</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1683723859i/152131528.jpg" ></a>
+                <h3>Satire</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://images.thenile.io/r1000/9780197551509.jpg" ></a>
+                <h3>Journalistic Fiction</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

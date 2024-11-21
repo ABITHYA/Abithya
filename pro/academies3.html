@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #0148;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fefdf1;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(3, 100, 98, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fcfdef;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Our Academic Book Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://pup-assets.imgix.net/onix/images/9780691128740.jpg" ></a>
+                <h3>Political Science
+                </h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://th.bing.com/th/id/OIP.Z3eWGHZZIuvA5uWqXHRDogHaKQ?rs=1&pid=ImgDetMain" ></a>
+                <h3>Anthropology</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.YdZk4bLEEFSnVzW8fheWJAHaLY?rs=1&pid=ImgDetMain" ></a>
+                <h3>Linguistics</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://pictures.abebooks.com/isbn/9788125035114-uk.jpg" ></a>
+                <h3>Cultural Studies</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://m.media-amazon.com/images/I/41grvdRmh-L.jpg" ></a>
+                <h3>Gender Studies</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://imgv2-1-f.scribdassets.com/img/word_document/262279190/original/06472c9cab/1586757141?v=1" ></a>
+                <h3>Religious Studies</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

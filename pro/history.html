@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fdfbf3;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fdfbf4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore History Book Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://images-na.ssl-images-amazon.com/images/I/51MjnZABL3L._SY445_QL70_.jpg" ></a>
+                <h3>Prehistory</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://m.media-amazon.com/images/I/513auSNvp7L.jpg" ></a>
+                <h3>Ancient History</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://bloomsburyhistory.typepad.com/.a/6a0134861ac232970c017ee73d1963970d-600wi" ></a>
+                <h3>Medieval History</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://i.pinimg.com/originals/a8/31/68/a83168a2262ebdfb83746e0887898e15.jpg" ></a>
+                <h3>Social </h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://mbcpathway.com/wp-content/uploads/2017/07/book-cover-culture.jpg" ></a>
+                <h3>Cultural</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982116798/politics-is-for-power-9781982116798_hr.jpg" ></a>
+                <h3>Political</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

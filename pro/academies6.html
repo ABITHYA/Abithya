@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #0148;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fcfcf8;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(3, 100, 98, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fdfcf2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Agriculture and Architecture Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://media.s-bol.com/qxxVnV2oOLmk/550x745.jpg" ></a>
+                <h3>Crop Production and Horticulture</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://heritagebooks.com.np/wp-content/uploads/2022/09/A-textbook-of-Veterinary-Pharmacology-Grade-XI.jpg" ></a>
+                <h3>Animal Science and Veterinary Medicine</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.TfW6fdL9mAxp7mgV3Dz53gHaLW?rs=1&pid=ImgDetMain" ></a>
+                <h3>Soil Science and Agronomy</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/R.47a23f344df2f0d3e24cedbfa02944ea?rik=rWuxdrVgKQm5aQ&riu=http%3a%2f%2fwriteandprint.com%2fimages%2fbookimage%2f9789387214101.jpg&ehk=Jx3mXJREEjpqJ4p2%2f%2bix03TRQU6OUqexms1CVPhVMPE%3d&risl=&pid=ImgRaw&r=0" ></a>
+                <h3> Agricultural Engineering</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.MNzEgifJtY4D6_RTD_JPfwAAAA?rs=1&pid=ImgDetMain" ></a>
+                <h3>Forestry and Agroforestry</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://media.s-bol.com/7N3GxV4GVB8/550x827.jpg" ></a>
+                <h3>Pest Management and Plant Protection</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

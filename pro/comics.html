@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fcf8ef;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fbf6ed;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Comics Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://th.bing.com/th/id/R.192ef321cf875bb0c603bbe3a1364b36?rik=6W09dNbWm0DfPw&riu=http%3a%2f%2fecx.images-amazon.com%2fimages%2fI%2f81SbO3vL12L._SL1500_.jpg&ehk=ZzdbMakT%2beha2tGQRKox2%2b8gsORO7d8lLvk9plhU63c%3d&risl=&pid=ImgRaw&r=0" ></a>
+                <h3>Children’s Comics</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://th.bing.com/th/id/OIP.RYRVEROwfvdfhjFBGVH-kgHaL7?rs=1&pid=ImgDetMain" ></a>
+                <h3>Satirical Comics</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/R.54b9f5be0e99d2e96d463d4ebf5c996b?rik=BzlQjFBnaXIXxw&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f9780896082755_p0_v1_s550x406.jpg&ehk=p1xAob4630jEn6zA8vHALSUIukS984hl7sM5lMsIb0c%3d&risl=&pid=ImgRaw&r=0" ></a>
+                <h3>Political Comics</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.9s6EImgVnFrnlHSg2zUGNwAAAA?w=331&h=500&rs=1&pid=ImgDetMain" ></a>
+                <h3>Feminist Comics</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://i.pinimg.com/originals/7c/2a/42/7c2a4224a7108c13b578ebcbee1853ee.png" ></a>
+                <h3>Webcomics</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/R.1e5eb73fa60cf788992c1e504fcaa935?rik=LgeC7K2LCTBLgQ&riu=http%3a%2f%2fd1466nnw0ex81e.cloudfront.net%2fn_iv%2f600%2f852201.jpg&ehk=ydcRWKCnFqCb%2fKnMdrZhG09xyjBOX2KaWFbeOiE%2f24E%3d&risl=&pid=ImgRaw&r=0" ></a>
+                <h3>Crime Comics</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

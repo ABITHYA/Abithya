@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #0148;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fffef5;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(3, 100, 98, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fcfdf5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Law and Health Sciences Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://store.lexisnexis.com/img/product/w800/00170_9781579110888_cover_2.jpg" ></a>
+                <h3>Constitutional Law</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://i.thenile.io/r1000/9780198811817.jpg?r=5e61e05c1080e" ></a>
+                <h3>Criminal Law</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/R.f7543aad18decc6d8f008baaff70be9a?rik=P%2bYyBuM64YAWvQ&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f2940154873748_p0_v1_s1200x630.jpg&ehk=u4FKRe2DmxGGGDMtRh7o%2bocOzcJanhzjc9MJ6Olt2TQ%3d&risl=&pid=ImgRaw&r=0" ></a>
+                <h3>Civil Law</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://rukminim1.flixcart.com/image/1408/1408/book/2/8/6/company-law-original-imad8c92fyuhcfte.jpeg?q=90" ></a>
+                <h3>Corporate Law</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.7IPJm_mATi05YPGTLfDIpwAAAA?rs=1&pid=ImgDetMain" ></a>
+                <h3>Environmental Law</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781509933310.jpg" ></a>
+                <h3>Human Rights Law</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

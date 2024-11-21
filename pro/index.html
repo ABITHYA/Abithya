@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Categories</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(255, 249, 243);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            /* text-shadow: 2px 2px 4px rgb(248, 235, 235); */
+        }
+
+        
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            border-radius: 7px;
+        }
+
+       
+        .book {
+            width: 150px;
+            text-align: center;
+        }
+
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(238, 177, 177); 
+        }
+
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            /* text-shadow: 1px 1px 3px rgba(255, 187, 187, 0.5); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Our Book Categories</h1>
+
+        <div class="book-row">
+            <div class="book">
+                <a href="academies.html"><img src="book2.jpeg"  ></a>
+                <h3>Academies</h3>
+            </div>
+            <div class="book">
+                <a href="science.html"><img src="https://th.bing.com/th/id/R.2eeb552d8b2e5ecfaa04057574c1e3b5?rik=n7paH0axtfnQ0A&riu=http%3a%2f%2f4.bp.blogspot.com%2f-sTMs9zZVAQI%2fTHUU0aP9l2I%2fAAAAAAAAFXI%2fZCsyjliNv3A%2fs1600%2f01%2bENCYCLOPEDIA%2bOF%2bSCIENCE%2bFICTION%2bCOVER%2bBY%2bTONY%2bROBERTS.jpg&ehk=UXRp4AmvAQgveB3%2b6RKQVooKYQEKKhFQ98wtC8dRxXk%3d&risl=&pid=ImgRaw&r=0" height="10px"></a>
+                <h3>Science Fiction</h3>
+            </div>
+            <div class="book">
+                <a href="history.html"><img src="https://imgv2-2-f.scribdassets.com/img/document/684582309/original/ecac958fea/1709039548?v=1"></a>
+                <h3>History</h3>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book">
+                <a href="art.html"><img src="https://media.macphun.com/img/uploads/customer/blog/1460/15640481855d397b396f3be5.70904139.jpg?q=85&w=1680" ></a>
+                <h3>Art & Photography</h3>
+            </div>
+            <div class="book">
+                <a href="novel.html"><img src="https://www.rd.com/wp-content/uploads/2019/11/81sf778Q30L.jpg?w=1400" ></a>
+                <h3>Novel</h3>
+            </div>
+            <div class="book">
+                <a href="comics.html"><img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/851931.jpg" ></a>
+                <h3>Comics</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Books</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.ytimg.com/vi/4anKn69gIy8/maxresdefault.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #0148;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Title */
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #f8f7ed;
+        }
+
+        /* Flexbox container for rows of books */
+        .book-row {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        /* Individual book box */
+        .book {
+            width: 180px;
+            text-align: center;
+        }
+
+        /* Styling for book images */
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(3, 100, 98, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for images */
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Book title styling */
+        .book h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #fdfdf2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Explore Our Academic Book Collection</h1>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"><img src="https://productimages.worldofbooks.com/019569919X.jpg" ></a>
+                <h3>Front Office Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"><img src="https://th.bing.com/th/id/OIP.sxLtiBxJIlUYzAB7bgadmQAAAA?rs=1&pid=ImgDetMain" ></a>
+                <h3>Housekeeping Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/R.89e5ca07d2cebbddad7fc068c7be790b?rik=DHNUeCk8Vc9L1w&riu=http%3a%2f%2fimages.gr-assets.com%2fbooks%2f1394338239l%2f5456629.jpg&ehk=440VH5zogaIjf6nZDZoUuQKWnIoOn4%2bJp1cgAlefGOY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" ></a>
+                <h3>Food and Beverage (F&B) Management</h3>
+            </div>
+        </div>
+        <div class="book-row">
+            <div class="book">
+                <a href="order.html"> <img src="https://media.s-bol.com/xkqx7Mq4Nxzz/546x840.jpg" ></a>
+                <h3>Revenue Management</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://images.routledge.com/common/jackets/crclarge/978113858/9781138583481.jpg" ></a>
+                <h3>Hotel Finance and Accounting</h3>
+            </div>
+            <div class="book">
+                <a href="order.html"> <img src="https://th.bing.com/th/id/OIP.AIlFCJlExQrlldRj4N3DfgHaLC?rs=1&pid=ImgDetMain" ></a>
+                <h3>Hotel Security Management</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
